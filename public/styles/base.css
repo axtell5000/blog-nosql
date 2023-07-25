@@ -10,13 +10,13 @@ body {
 }
 
 main {
-  width: 80%;
   margin: 3rem auto;
+  width: 80%;
 }
 
 a {
-  text-decoration: none;
   color: rgb(89, 0, 255);
+  text-decoration: none;
 }
 
 a:hover,
@@ -34,13 +34,13 @@ ol {
 /* Global components */
 
 .btn {
-  cursor: pointer;
-  font: inherit;
   background-color: rgb(89, 0, 255);
   border: 1px solid rgb(89, 0, 255);
-  color: white;
-  padding: 0.5rem 1.5rem;
   border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font: inherit;
+  padding: 0.5rem 1.5rem;
 }
 
 .btn:hover,
@@ -64,18 +64,18 @@ ol {
 /* Site-wide content / elements */
 
 #main-header {
-  padding: 2rem 10%;
+  align-items: center;
   background-color: rgb(89, 0, 255);
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  padding: 2rem 10%;
 }
 
 #logo a {
-  font-size: 2rem;
-  font-weight: bold;
   color: white;
   font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 #main-header ul {
